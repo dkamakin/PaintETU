@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/pictures"/>
+    <qresource prefix="/">
+        <file>../resources/triangleButton.png</file>
+        <file>../resources/repaintRect.png</file>
+        <file>../resources/paintbrush.png</file>
+        <file>../resources/icon.png</file>
+        <file>../resources/collage.png</file>
+        <file>../resources/read.png</file>
+        <file>../resources/save.png</file>
+        <file>../resources/edit.png</file>
+    </qresource>
+</RCC>

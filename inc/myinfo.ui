@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyInfo</class>
+ <widget class="QDialog" name="MyInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>378</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Info</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="pathLabel_2">
+       <property name="text">
+        <string>File path:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="nameLabel_2">
+       <property name="text">
+        <string>File name:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="sizeLabel_2">
+       <property name="text">
+        <string>File size:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="widthLabel_2">
+       <property name="text">
+        <string>Width:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="heightLabel_2">
+       <property name="text">
+        <string>Height:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="depthLabel_2">
+       <property name="text">
+        <string>Bit depth:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="colorLabel_2">
+       <property name="text">
+        <string>Color type</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="modifiedLabel_2">
+       <property name="text">
+        <string>Last modified:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="pathLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="nameLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="sizeLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="widthLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="heightLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="depthLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="colorLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="modifiedLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MyInfo</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>331</x>
+     <y>420</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>395</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
